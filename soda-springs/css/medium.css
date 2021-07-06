@@ -1,0 +1,107 @@
+@media only screen and (min-width: 45rem) {
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    nav ul li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: .9rem;
+        font-family: 'Roboto', sans-serif;
+        border: none;
+    }
+    main {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .main-title {
+        font-size: 3rem;
+    }
+    .headings h1 {
+        font-size: 4rem;
+    }
+    .m {
+        font-size: 2rem;
+    }
+    body .p {
+        font-size: 1.2rem;
+    }
+    header img {
+        display: flex;
+        width: 185px;
+    }
+    footer p {
+        font-size: 1.2rem;
+    }
+    .text p {
+        font-size: 1.2rem;
+    }
+    .media {
+        margin-left: 12em;
+    }
+    .media img {
+        width: 5rem;
+        padding: 0.8rem;
+    }
+    #map-small,
+    #map-large {
+        display: none;
+    }
+    #map-medium {
+        display: flex;
+    }
+    /***********CONTENT***********/
+    .hero {
+        margin-top: 3.5rem;
+    }
+    .hero img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .sumary {
+        top: 5em;
+        left: 7em;
+        padding: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .sumary h3 {
+        font-size: 2rem;
+    }
+    .sumary {
+        position: absolute;
+        width: 35%;
+        top: 25px;
+        left: 55px;
+    }
+    .article h3 {
+        font-size: 3rem;
+    }
+    .author {
+        font-size: 2.3rem;
+    }
+    .water {
+        width: 60%;
+        float: right;
+    }
+}
