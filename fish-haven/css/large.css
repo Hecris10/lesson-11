@@ -1,0 +1,114 @@
+ @media only screen and (min-width: 65rem) {
+     body {
+         max-width: 1440px;
+     }
+     nav button {
+         display: none;
+     }
+     nav ul.hide {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+         display: flex;
+     }
+     nav ul {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+         display: flex;
+     }
+     nav ul li {
+         display: block;
+         flex: 1 1 auto;
+     }
+     nav ul li a {
+         display: block;
+         padding: .8rem 2%;
+         text-decoration: none;
+         text-align: center;
+         font-weight: bold;
+         color: white;
+         font-size: 1.6rem;
+         font-family: 'Roboto', sans-serif;
+         border: none;
+     }
+     .main-title {
+         font-size: 1.8rem;
+     }
+     .headings h1 {
+         font-size: 4rem;
+     }
+     .m {
+         font-size: 1.8rem;
+     }
+     header img {
+         display: flex;
+         width: 220px;
+     }
+     .main-title {
+         font-size: 3rem;
+         padding: 3rem;
+     }
+     main {
+         margin: 0 auto;
+         margin-right: .4rem;
+         padding: 0.9rem;
+     }
+     #map-large {
+         display: flex;
+     }
+     #map-small,
+     #map-medium {
+         display: none;
+     }
+     .social {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr;
+     }
+     .info h3 {
+         font-size: 2rem;
+     }
+     .contact {
+         grid-column: 2;
+         grid-row: 1;
+         margin-top: 8rem;
+         margin-left: -7rem;
+         margin-right: 4rem;
+     }
+     .media {
+         margin-left: 9rem;
+     }
+     .map {
+         grid-column: 1;
+         grid-row: 1;
+     }
+     /********MAIN SECTION*********/
+     .sumary {
+         position: absolute;
+         top: 35px;
+         left: 200px;
+         width: 20%;
+     }
+     .sumary h3 {
+         color: white;
+         font-weight: bold;
+         font-size: 2rem;
+     }
+     .article h3 {
+         font-size: 3rem;
+     }
+     .article p {
+         font-size: 1.8rem;
+     }
+     .sumary p {
+         font-weight: bold;
+     }
+     p {
+         font-size: 1.5rem;
+     }
+     .author {
+         padding: 2rem;
+         padding-bottom: 4rem;
+     }
+ }
